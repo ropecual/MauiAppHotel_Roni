@@ -6,23 +6,23 @@ Repositório do projeto AppHotel. O AppHotel faz um panorama sobre elementos de 
 - https://www.youtube.com/watch?v=ExstAh2vqjk&list=PLHVpcBDJr5dkC1RVRMbVsgpZgtfOxMtf-
 
 ### AULA 5 - CRIANDO APLICATIVOS COM .NET MAUI - APPHOTEL - DATEPICKER, STEPPER E PICKER
-00:00 Introdução
-01:53 Criação do Projeto
-04:13 Compilando Projeto em Branco
-05:30 Ajustando o Tamanho da Tela
-08:48 Enviado o Projeto para Github
-10:08 Organizando a Estrutura do Projeto
-11:40 Adicionando mais Telas ao App
-15:15 Adicionando Fontes Personalizadas
-22:10 Modificando a Tela Inicial do App
-23:52 Construindo a Tela Inicial do App
-24:21 Escondendo a Barra de Navegação 
-25:10 Escolhendo Cores a partir de Estilos
-25:36 Explorando os arquivos de Estilos
-32:30 Definindo Componente ```Stepper```
-34:37 ```BindingContext``` no .NET MAUI
-39:00 Definindo Elemento ```Picker```
-42:56 Definindo Elemento ```DatePicker```
+-00:00 Introdução
+- 01:53 Criação do Projeto
+- 04:13 Compilando Projeto em Branco
+- 05:30 Ajustando o Tamanho da Tela
+- 08:48 Enviado o Projeto para Github
+- 10:08 Organizando a Estrutura do Projeto
+- 11:40 Adicionando mais Telas ao App
+- 15:15 Adicionando Fontes Personalizadas
+- 22:10 Modificando a Tela Inicial do App
+- 23:52 Construindo a Tela Inicial do App
+- 24:21 Escondendo a Barra de Navegação 
+- 25:10 Escolhendo Cores a partir de Estilos
+- 25:36 Explorando os arquivos de Estilos
+- 32:30 Definindo Componente ```Stepper```
+- 34:37 ```BindingContext``` no .NET MAUI
+- 39:00 Definindo Elemento ```Picker```
+- 42:56 Definindo Elemento ```DatePicker```
 
 ### AULA 6 - CRIANDO APLICATIVOS COM .NET MAUI - APPHOTEL - BINDINGCONTEXT
 - 00:00 Enviando Alterações para Git
