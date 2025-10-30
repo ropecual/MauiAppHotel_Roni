@@ -1,0 +1,35 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre o App">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+            <Image Source="hotel_logo.png"
+                   HeightRequest="120"
+                   HorizontalOptions="Center" />
+
+            <Label Text="Aplicativo Hotel MAUI"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+            <BoxView HeightRequest="2"
+                     Color="Gray"
+                     WidthRequest="100"
+                     HorizontalOptions="Center" />
+
+            <Label Text="Desenvolvido por: Roni Alvarenga"
+                   FontSize="18"
+                   TextColor="DarkSlateGray" />
+
+            <Label Text="Ano de desenvolvimento: 2025"
+                   FontSize="18"
+                   TextColor="DarkSlateGray" />
+
+            <Label Text="Aplicativo desenvolvido como exercício prático da Agenda 13 - Imagens e Componentes de Interface Gráfica."
+                   FontSize="16"
+                   TextColor="Gray"
+                   LineBreakMode="WordWrap" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
