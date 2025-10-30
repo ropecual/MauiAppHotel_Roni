@@ -17,6 +17,8 @@
 
         <Frame Padding="10">
             <VerticalStackLayout>
+
+                <!-- GRID DE ADULTOS E CRIANÇAS -->
                 <Grid RowDefinitions="Auto, Auto"
                       ColumnDefinitions="*, *, 2*">
 
@@ -26,7 +28,7 @@
                     <Label Grid.Row="0" Grid.Column="1"
                            TextColor="{StaticResource Primary}"
                            Text="{Binding Value}"
-                           BindingContext="{x:Reference stp_adultos}"/>
+                           BindingContext="{x:Reference stp_adultos}" />
 
                     <Stepper Grid.Row="0" Grid.Column="2"
                              x:Name="stp_adultos"
@@ -40,7 +42,7 @@
                     <Label Grid.Row="1" Grid.Column="1"
                            TextColor="{StaticResource Primary}"
                            Text="{Binding Value}"
-                           BindingContext="{x:Reference stp_criancas}"/>
+                           BindingContext="{x:Reference stp_criancas}" />
 
                     <Stepper Grid.Row="1" Grid.Column="2"
                              x:Name="stp_criancas"
@@ -49,28 +51,29 @@
                              Increment="1" />
                 </Grid>
 
+                <!-- SEÇÃO DE ESCOLHA DE SUÍTE -->
                 <Frame Padding="10" Margin="10">
                     <VerticalStackLayout>
 
                         <Label Text="Escolha sua Suíte"
                                TextTransform="Uppercase"
                                FontSize="Subtitle"
-                               TextColor="{StaticResource Primary}"/>
+                               TextColor="{StaticResource Primary}" />
 
                         <Picker x:Name="pck_quarto"
                                 Title="Selecione sua Acomodação"
-                                ItemDisplayBinding="{Binding Descricao}"/>
+                                ItemDisplayBinding="{Binding Descricao}" />
                     </VerticalStackLayout>
                 </Frame>
 
-                <Frame Padding="10"
-                       Margin="10">
+                <!-- SEÇÃO DE DATAS -->
+                <Frame Padding="10" Margin="10">
                     <VerticalStackLayout Spacing="10">
 
                         <Label Text="Período da Estadia"
                                TextTransform="Uppercase"
                                FontSize="Subtitle"
-                               TextColor="{StaticResource Primary}"/>
+                               TextColor="{StaticResource Primary}" />
 
                         <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
                             <Label Text="Check-in:" />
@@ -87,7 +90,23 @@
                     </VerticalStackLayout>
                 </Frame>
 
-                <Button Text="Avançar" Clicked="Button_Clicked"   />
+                <!-- BOTÕES DE AÇÃO -->
+                <VerticalStackLayout Spacing="10" Margin="10,0,10,0">
+
+                    <Button Text="Avançar"
+                            Clicked="Button_Clicked"
+                            BackgroundColor="{StaticResource Primary}"
+                            TextColor="White"
+                            CornerRadius="8" />
+
+                    <Button Text="Sobre o App"
+                            Clicked="BtnSobre_Clicked"
+                            BackgroundColor="#3949AB"
+                            TextColor="White"
+                            CornerRadius="8"
+                            FontAttributes="Bold" />
+
+                </VerticalStackLayout>
 
             </VerticalStackLayout>
         </Frame>
